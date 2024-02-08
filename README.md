@@ -6,6 +6,8 @@ A repository for the community weekly race presets for the [AM2R Randovania serv
 
 ### Standard
 
+[Download](https://github.com/JeffGainsNGames/am2r_weekly/releases/latest/download/am2r-weekly-race-preset-standard.rdvpreset)
+
 Main Caves Start
 
 Starting Items: Vanilla Items, Charge Beam
