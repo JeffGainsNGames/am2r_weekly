@@ -1,27 +1,117 @@
 {
     "schema_version": 73,
     "base_preset_uuid": null,
-    "name": "AM2R Weekly Race Preset (Standard)",
-    "uuid": "a4f79d83-d298-4c12-9c59-bba0d859edca",
-    "description": "This is the Preset that will be used for the Weekly Community Standard Races hosted on Speedgaming.",
+    "name": "AM2R Weekly Race Preset (Alternative)",
+    "uuid": "d9ec80a2-0f94-4a2f-b0cd-6b0e1063631b",
+    "description": "This is the Preset that will be used for the Weekly Community Alternative Races hosted on Speedgaming.",
     "game": "am2r",
     "configuration": {
         "trick_level": {
             "minimal_logic": false,
             "specific_levels": {
-                "ChargedBombJump": "beginner",
+                "ChargedBombJump": "intermediate",
                 "Knowledge": "beginner",
-                "MidAirMorph": "beginner",
+                "MidAirMorph": "intermediate",
                 "MorphGlide": "beginner",
                 "Movement": "beginner",
-                "Shinesparking": "beginner",
-                "Walljump": "beginner"
+                "Shinesparking": "advanced",
+                "Walljump": "advanced"
             }
         },
         "starting_location": [
             {
+                "region": "Distribution Center",
+                "area": "Distribution Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Distribution Center",
+                "area": "Facility Storage Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "GFS Thoth",
+                "area": "Thoth Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Genetics Laboratory",
+                "area": "Laboratory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Inner Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Outer Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Arachnus Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Inner Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Eastern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Upper Factory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Mining Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Southern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
                 "region": "Main Caves",
                 "area": "Surface Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Surface Pond Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Western Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Exterior Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Inner Save Station",
                 "node": "Save Station"
             }
         ],
@@ -104,7 +194,7 @@
             },
             "default_pickups": {},
             "minimum_random_starting_pickups": 0,
-            "maximum_random_starting_pickups": 0
+            "maximum_random_starting_pickups": 1
         },
         "ammo_pickup_configuration": {
             "pickups_state": {
@@ -226,7 +316,7 @@
         "screw_blocks": true,
         "artifacts": {
             "prefer_metroids": true,
-            "prefer_bosses": false,
+            "prefer_bosses": true,
             "prefer_anywhere": false,
             "required_artifacts": 10
         },

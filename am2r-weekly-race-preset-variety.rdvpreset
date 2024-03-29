@@ -1,9 +1,9 @@
 {
     "schema_version": 73,
     "base_preset_uuid": null,
-    "name": "AM2R Weekly Race Preset (Standard)",
-    "uuid": "a4f79d83-d298-4c12-9c59-bba0d859edca",
-    "description": "This is the Preset that will be used for the Weekly Community Standard Races hosted on Speedgaming.",
+    "name": "AM2R Weekly Race Preset (Variety)",
+    "uuid": "27f0e256-ac5f-4b34-b6fb-c53806de5a39",
+    "description": "This is the Preset that will be used for the Weekly Community Variety Races hosted on Speedgaming.",
     "game": "am2r",
     "configuration": {
         "trick_level": {
@@ -20,8 +20,98 @@
         },
         "starting_location": [
             {
+                "region": "Distribution Center",
+                "area": "Distribution Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Distribution Center",
+                "area": "Facility Storage Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "GFS Thoth",
+                "area": "Thoth Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Genetics Laboratory",
+                "area": "Laboratory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Inner Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Outer Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Arachnus Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Inner Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Eastern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Upper Factory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Mining Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Southern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
                 "region": "Main Caves",
                 "area": "Surface Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Surface Pond Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Western Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Exterior Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Inner Save Station",
                 "node": "Save Station"
             }
         ],
@@ -38,7 +128,7 @@
                     "num_shuffled_pickups": 1
                 },
                 "Power Grip": {
-                    "num_included_in_starting_pickups": 1
+                    "num_shuffled_pickups": 1
                 },
                 "Spider Ball": {
                     "num_shuffled_pickups": 1
@@ -81,7 +171,7 @@
                     "num_included_in_starting_pickups": 1
                 },
                 "Missile Launcher": {
-                    "num_included_in_starting_pickups": 1,
+                    "num_shuffled_pickups": 1,
                     "included_ammo": [
                         30
                     ]
@@ -104,7 +194,7 @@
             },
             "default_pickups": {},
             "minimum_random_starting_pickups": 0,
-            "maximum_random_starting_pickups": 0
+            "maximum_random_starting_pickups": 1
         },
         "ammo_pickup_configuration": {
             "pickups_state": {
@@ -195,20 +285,52 @@
         "minimum_available_locations_for_hint_placement": 0,
         "minimum_location_weight_for_hint_placement": 0.0,
         "dock_rando": {
-            "mode": "vanilla",
+            "mode": "docks",
             "types_state": {
                 "door": {
                     "can_change_from": [
+                        "Distribution Center Bullet Hell Room Access EMP Door",
+                        "Distribution Center EMP Ball Introduction EMP Door",
+                        "Distribution Center Energy Distribution Tower East EMP Door",
+                        "Distribution Center Energy Restored Door",
+                        "Distribution Center Exterior East Access EMP Door",
+                        "Distribution Center Pipe Hub Access EMP Door",
+                        "Distribution Center Robot Home EMP Door",
+                        "Golden Temple EMP Door",
+                        "Hydro Station EMP Door",
+                        "Hydro Station Water Turbine",
+                        "Industrial Complex EMP Door",
                         "Missile Door",
                         "Normal Door",
                         "Power Bomb Door",
-                        "Super Missile Door"
+                        "Research Site Open Hatch",
+                        "Super Missile Door",
+                        "Tester-Locked Door",
+                        "Tower Energy Restored Door"
                     ],
                     "can_change_to": [
+                        "Arachnus-Locked Door",
+                        "Bomb Door",
+                        "Charge Beam Door",
+                        "Genesis-Locked Door",
+                        "Guardian-Locked Door",
+                        "Hydro Station Water Turbine",
+                        "Ice Beam Door",
+                        "Locked Door",
                         "Missile Door",
                         "Normal Door",
+                        "Plasma Beam Door",
                         "Power Bomb Door",
-                        "Super Missile Door"
+                        "Research Site Open Hatch",
+                        "Screw Attack Door",
+                        "Serris-Locked Door",
+                        "Spazer Beam Door",
+                        "Spider Ball Door",
+                        "Super Missile Door",
+                        "Tester-Locked Door",
+                        "Torizo-Locked Door",
+                        "Tower Energy Restored Door",
+                        "Wave Beam Door"
                     ]
                 }
             }
@@ -223,11 +345,11 @@
         "skip_save_cutscene": true,
         "skip_item_cutscenes": true,
         "respawn_bomb_blocks": false,
-        "screw_blocks": true,
+        "screw_blocks": false,
         "artifacts": {
             "prefer_metroids": true,
             "prefer_bosses": false,
-            "prefer_anywhere": false,
+            "prefer_anywhere": true,
             "required_artifacts": 10
         },
         "hints": {
