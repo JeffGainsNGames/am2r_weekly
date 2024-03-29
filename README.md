@@ -2,11 +2,9 @@
 
 A repository for the community weekly race presets for the [AM2R Randovania server](discord.gg/TkRYXfewTA).
 
-## Brief Overview
+[Download](https://github.com/JeffGainsNGames/am2r_weekly/releases/latest)
 
 ### Standard
-
-[Download](https://github.com/JeffGainsNGames/am2r_weekly/releases/latest/download/am2r-weekly-race-preset-standard.rdvpreset)
 
 Main Caves Start
 
@@ -22,3 +20,5 @@ Tricks (all at beginner):
 - Movement
 - Shinesparking
 - Walljump
+
+All other presets built upon standard and described in the release.
