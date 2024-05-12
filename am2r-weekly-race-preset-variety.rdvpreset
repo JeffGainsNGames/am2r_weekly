@@ -1,5 +1,5 @@
 {
-    "schema_version": 73,
+    "schema_version": 76,
     "base_preset_uuid": null,
     "name": "AM2R Weekly Race Preset (Variety)",
     "uuid": "27f0e256-ac5f-4b34-b6fb-c53806de5a39",
@@ -87,16 +87,6 @@
             {
                 "region": "Main Caves",
                 "area": "Southern Cave Save Station",
-                "node": "Save Station"
-            },
-            {
-                "region": "Main Caves",
-                "area": "Surface Cave Save Station",
-                "node": "Save Station"
-            },
-            {
-                "region": "Main Caves",
-                "area": "Surface Pond Save Station",
                 "node": "Save Station"
             },
             {
@@ -198,27 +188,6 @@
         },
         "ammo_pickup_configuration": {
             "pickups_state": {
-                "Missile Expansion": {
-                    "ammo_count": [
-                        5
-                    ],
-                    "pickup_count": 50,
-                    "requires_main_item": true
-                },
-                "Super Missile Expansion": {
-                    "ammo_count": [
-                        2
-                    ],
-                    "pickup_count": 12,
-                    "requires_main_item": true
-                },
-                "Power Bomb Expansion": {
-                    "ammo_count": [
-                        2
-                    ],
-                    "pickup_count": 12,
-                    "requires_main_item": true
-                },
                 "Small Health Drop": {
                     "ammo_count": [
                         5
@@ -273,6 +242,27 @@
                         1
                     ],
                     "pickup_count": 0,
+                    "requires_main_item": true
+                },
+                "Missile Tank": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 50,
+                    "requires_main_item": true
+                },
+                "Super Missile Tank": {
+                    "ammo_count": [
+                        2
+                    ],
+                    "pickup_count": 12,
+                    "requires_main_item": true
+                },
+                "Power Bomb Tank": {
+                    "ammo_count": [
+                        2
+                    ],
+                    "pickup_count": 12,
                     "requires_main_item": true
                 }
             }
