@@ -10,7 +10,7 @@ Starting Location: Surface Cave
 
 Starting Items: Vanilla Items, Charge Beam
 
-Item Pool: Progressive Jumps, Progressive Suits
+Item Pool: Progressive Jumps, Progressive Suits, 10 DNA on Metroids
 
 Tricks (all at beginner): 
 - ChargedBombJump
@@ -28,7 +28,7 @@ Starting Location: 17 locations, most locations minus surface caves and depths
 
 Starting Items: Vanilla Items, Charge Beam, 0-1 Random Items
 
-Item Pool: Progressive Jumps, Progressive Suits
+Item Pool: Progressive Jumps, Progressive Suits, 10 DNA on Metroids AND Bosses
 
 Tricks: 
 - ChargedBombJump (Int)
@@ -44,9 +44,11 @@ Tricks:
 
 Starting Location: 17 locations, most locations minus surface caves and depths
 
-Starting Items: Vanilla Items, Charge Beam, 0-1 Random Items
+Starting Items: Morph Ball, Charge Beam, 0-1 Random Items (Missiles and Power Grip ARE shuffled)
 
 Item Pool: Progressive Jumps, Progressive Suits
+
+Other: Screw Attack blocks near Teleport pipes is OFF
 
 Door Locks: All doors shuffled in -> All door types (minus EMP) see image
 ![image](https://github.com/JeffGainsNGames/am2r_weekly/assets/125271738/31d36609-164d-4cd6-9ac5-cd51ea019771)
