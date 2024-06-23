@@ -1,0 +1,340 @@
+{
+    "schema_version": 82,
+    "base_preset_uuid": null,
+    "name": "AM2R Weekly Race Preset (Pipe Shuffle)",
+    "uuid": "a6ffc384-b5db-4c13-8038-e5504d398da4",
+    "description": "This is the Preset that will be used for the Weekly Community Pipe Rando Races hosted on Speedgaming.",
+    "game": "am2r",
+    "configuration": {
+        "trick_level": {
+            "minimal_logic": false,
+            "specific_levels": {
+                "ChargedBombJump": "intermediate",
+                "Knowledge": "beginner",
+                "MidAirMorph": "intermediate",
+                "MorphGlide": "beginner",
+                "Movement": "beginner",
+                "Shinesparking": "advanced",
+                "Walljump": "advanced"
+            }
+        },
+        "starting_location": [
+            {
+                "region": "Distribution Center",
+                "area": "Distribution Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Distribution Center",
+                "area": "Facility Storage Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "GFS Thoth",
+                "area": "Thoth Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Genetics Laboratory",
+                "area": "Laboratory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Inner Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Golden Temple",
+                "area": "Outer Temple Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Arachnus Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Breeding Grounds Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Hydro Station",
+                "area": "Inner Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Eastern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Industrial Complex",
+                "area": "Upper Factory Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Mining Facility Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Southern Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "Main Caves",
+                "area": "Western Cave Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Exterior Save Station",
+                "node": "Save Station"
+            },
+            {
+                "region": "The Tower",
+                "area": "Inner Save Station",
+                "node": "Save Station"
+            }
+        ],
+        "available_locations": {
+            "randomization_mode": "full",
+            "excluded_indices": []
+        },
+        "standard_pickup_configuration": {
+            "pickups_state": {
+                "Power Beam": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Bombs": {
+                    "num_shuffled_pickups": 1
+                },
+                "Power Grip": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Spider Ball": {
+                    "num_shuffled_pickups": 1
+                },
+                "Spring Ball": {
+                    "num_shuffled_pickups": 1
+                },
+                "Screw Attack": {
+                    "num_shuffled_pickups": 1
+                },
+                "Varia Suit": {},
+                "Space Jump": {},
+                "Speed Booster": {
+                    "num_shuffled_pickups": 1
+                },
+                "Hi-Jump Boots": {},
+                "Progressive Jump": {
+                    "num_shuffled_pickups": 2
+                },
+                "Gravity Suit": {},
+                "Progressive Suit": {
+                    "num_shuffled_pickups": 2
+                },
+                "Charge Beam": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Ice Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Wave Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Spazer Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Plasma Beam": {
+                    "num_shuffled_pickups": 1
+                },
+                "Morph Ball": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Missile Launcher": {
+                    "num_included_in_starting_pickups": 1,
+                    "included_ammo": [
+                        30
+                    ]
+                },
+                "Super Missile Launcher": {
+                    "num_shuffled_pickups": 1,
+                    "included_ammo": [
+                        2
+                    ]
+                },
+                "Power Bomb Launcher": {
+                    "num_shuffled_pickups": 1,
+                    "included_ammo": [
+                        2
+                    ]
+                },
+                "Energy Tank": {
+                    "num_shuffled_pickups": 10
+                },
+                "Long Beam": {
+                    "num_included_in_starting_pickups": 1
+                },
+                "Infinite Bomb Propulsion": {
+                    "num_shuffled_pickups": 1
+                },
+                "Walljump Boots": {
+                    "num_shuffled_pickups": 1
+                }
+            },
+            "default_pickups": {},
+            "minimum_random_starting_pickups": 0,
+            "maximum_random_starting_pickups": 1
+        },
+        "ammo_pickup_configuration": {
+            "pickups_state": {
+                "Small Health Drop": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": true
+                },
+                "Big Health Drop": {
+                    "ammo_count": [
+                        1000
+                    ],
+                    "pickup_count": 2,
+                    "requires_main_item": true
+                },
+                "Missile Drop": {
+                    "ammo_count": [
+                        400
+                    ],
+                    "pickup_count": 2,
+                    "requires_main_item": true
+                },
+                "Super Missile Drop": {
+                    "ammo_count": [
+                        50
+                    ],
+                    "pickup_count": 3,
+                    "requires_main_item": true
+                },
+                "Power Bomb Drop": {
+                    "ammo_count": [
+                        50
+                    ],
+                    "pickup_count": 3,
+                    "requires_main_item": true
+                },
+                "Speed Booster Upgrade": {
+                    "ammo_count": [
+                        15
+                    ],
+                    "pickup_count": 3,
+                    "requires_main_item": true
+                },
+                "Flashlight": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": true
+                },
+                "Blindfold": {
+                    "ammo_count": [
+                        1
+                    ],
+                    "pickup_count": 0,
+                    "requires_main_item": true
+                },
+                "Missile Tank": {
+                    "ammo_count": [
+                        5
+                    ],
+                    "pickup_count": 50,
+                    "requires_main_item": true
+                },
+                "Super Missile Tank": {
+                    "ammo_count": [
+                        2
+                    ],
+                    "pickup_count": 12,
+                    "requires_main_item": true
+                },
+                "Power Bomb Tank": {
+                    "ammo_count": [
+                        2
+                    ],
+                    "pickup_count": 12,
+                    "requires_main_item": true
+                }
+            }
+        },
+        "damage_strictness": 1.5,
+        "pickup_model_style": "all-visible",
+        "pickup_model_data_source": "etm",
+        "logical_resource_action": "randomly",
+        "first_progression_must_be_local": false,
+        "minimum_available_locations_for_hint_placement": 0,
+        "minimum_location_weight_for_hint_placement": 0.0,
+        "dock_rando": {
+            "mode": "vanilla",
+            "types_state": {
+                "door": {
+                    "can_change_from": [
+                        "Missile Door",
+                        "Normal Door",
+                        "Power Bomb Door",
+                        "Super Missile Door"
+                    ],
+                    "can_change_to": [
+                        "Missile Door",
+                        "Normal Door",
+                        "Power Bomb Door",
+                        "Super Missile Door"
+                    ]
+                }
+            }
+        },
+        "single_set_for_pickups_that_solve": true,
+        "staggered_multi_pickup_placement": true,
+        "check_if_beatable_after_base_patches": false,
+        "energy_per_tank": 100,
+        "softlock_prevention_blocks": false,
+        "septogg_helpers": true,
+        "teleporters": {
+            "mode": "two-way-unchecked",
+            "excluded_teleporters": [],
+            "excluded_targets": []
+        },
+        "skip_cutscenes": true,
+        "skip_save_cutscene": true,
+        "skip_item_cutscenes": true,
+        "respawn_bomb_blocks": false,
+        "screw_blocks": false,
+        "artifacts": {
+            "prefer_metroids": true,
+            "prefer_bosses": true,
+            "prefer_anywhere": true,
+            "required_artifacts": 15,
+            "placed_artifacts": 20
+        },
+        "hints": {
+            "artifacts": "precise",
+            "ice_beam": "hide-area"
+        },
+        "fusion_mode": false,
+        "supers_on_missile_doors": true,
+        "grave_grotto_blocks": true,
+        "nest_pipes": true,
+        "a3_entrance_blocks": true,
+        "blue_save_doors": false,
+        "force_blue_labs": false
+    }
+}
